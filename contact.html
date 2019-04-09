@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yosemite National Park</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <style>
+        a {
+            color:white
+        }
+    
+    </style>
+</head>
+    
+    <body>
+    
+        <header>
+        
+    
+            <a href="index.html"><img src="images/logo2.jpg" alt="yosemite" height="100"></a> 
+      
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="map.html">Map</a></li>
+                        <li><a href="pics.html">Wildlife</a></li>
+                        <li><a href="features.html">Park Info</a></li>
+                
+                    </ul>    
+                </nav>
+        
+        </header>
+    
+    <main>
+        <form>
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple="true">
+                    <option value="email">Email</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="colleague">Colleague</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google Search</option>
+                </select>
+            </p>
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+
+            <div class="radio-buttons">
+                <label for="join-newsletter">Would you like to join our newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+            </div>
+            <br>
+
+
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+
+
+        </form>
+    </main>
+        
+    </body>
